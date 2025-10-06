@@ -1,0 +1,13 @@
+.idea/*
+out/*
+*.iml
+classes/*
+**/target/**
+*/.settings/*
+.settings/*
+.classpath/*
+.project
+.classpath
+*/.jenkins*/*
+.gitmodules
+*.log

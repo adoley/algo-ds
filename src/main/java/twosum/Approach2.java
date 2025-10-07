@@ -15,6 +15,9 @@ import java.util.Arrays;
  *      (b) Find the other number from the elements in the array from the next index of the current element
  *      (c) If the other number is found then return the indices
  * (4) If pair is not found return [-1,-1]
+ *
+ * T(n) = n * log(n) (log(n) is for binary search)
+ * S(n) = 1
  */
 public class Approach2 {
     public static int[] twoSum(int[] nums, int target){

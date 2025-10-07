@@ -1,5 +1,7 @@
 package twosum;
 
+import java.util.Arrays;
+
 /**
  * Algo
  * (1) Validation
@@ -20,6 +22,7 @@ public class Approach2 {
         result[0]=-1;
         result[1]=-1;
         if (nums!=null && nums.length>=2){
+            Arrays.sort(nums);
             for(int i=0; i< nums.length-1;i++){
                 int currentNumber=nums[i];
                 int otherNumber=target-currentNumber;

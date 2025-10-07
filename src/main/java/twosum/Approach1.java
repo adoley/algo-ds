@@ -3,7 +3,7 @@ package twosum;
 /**
  * Algo
  * (1) For each element
- * (2) Find the other element from rest of the elements and check if sum is equal to the given target.
+ * (2) Find the other element from rest of the elements and check if the sum is equal to the given target.
  * (3) If matches return indices
  *
  * T(n) = n^2

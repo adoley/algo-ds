@@ -17,7 +17,7 @@ import java.util.*;
  *  S(n) : n, for the additional Map
  */
 public class Approach1 {
-    public static List<List<String>>groupAnagram(String[] strs){
+    public static List<List<String>> groupAnagram(String[] strs){
         List<List<String>> result=new ArrayList<>();
         if(strs!=null && strs.length>0){
             Map<String,List<String>> anagramMap=new HashMap<>();

@@ -3,7 +3,7 @@ package second.issubsequence;
 /**
  * The approach is to find a character in a sub array.
  *
- * Time complexity : O(s) * O(t), where s is the length of input s and t is the length of string t
+ * Time complexity : O(t), where t is the length of string t
  * Space complexity : O(1)
  */
 public class Approach1 {

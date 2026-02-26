@@ -2,6 +2,7 @@ package second.issubsequence;
 
 /**
  * The approach is to find a character in a sub array.
+ * The specialized implementation of two pointers
  *
  * Time complexity : O(t), where t is the length of string t
  * Space complexity : O(1)

@@ -1,4 +1,4 @@
-package second.anagram;
+package v2.anagram;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package second.twosum;
+package v2.twosum;
 
 /**
  * Algo

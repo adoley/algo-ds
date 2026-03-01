@@ -1,4 +1,4 @@
-package second.duplicates;
+package v2.duplicates;
 
 import java.util.HashMap;
 import java.util.Map;

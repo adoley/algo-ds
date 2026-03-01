@@ -1,4 +1,4 @@
-package second.topkfrequent;
+package v2.topkfrequent;
 
 import java.util.*;
 

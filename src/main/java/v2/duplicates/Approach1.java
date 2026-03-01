@@ -1,4 +1,4 @@
-package second.duplicates;
+package v2.duplicates;
 
 /**
  * The question is to return true if the input array contains same number at least 2 times

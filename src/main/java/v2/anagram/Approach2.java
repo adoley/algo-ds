@@ -1,4 +1,4 @@
-package second.anagram;
+package v2.anagram;
 
 /**
  * The approach is to keep the count of each character in the input string.

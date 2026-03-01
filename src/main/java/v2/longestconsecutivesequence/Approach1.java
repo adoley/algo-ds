@@ -1,4 +1,4 @@
-package second.longestconsecutivesequence;
+package v2.longestconsecutivesequence;
 
 import java.util.HashMap;
 import java.util.Map;

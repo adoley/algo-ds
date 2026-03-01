@@ -1,4 +1,4 @@
-package second.productexceptself;
+package v2.productexceptself;
 
 import java.util.Arrays;
 

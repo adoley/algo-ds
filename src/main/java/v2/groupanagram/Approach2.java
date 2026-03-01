@@ -1,4 +1,4 @@
-package second.groupanagram;
+package v2.groupanagram;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package second.issubsequence;
+package v2.issubsequence;
 
 /**
  * The approach is to find a character in a sub array.

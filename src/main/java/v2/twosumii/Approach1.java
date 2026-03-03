@@ -35,11 +35,7 @@ public class Approach1 {
             while (leftPointer<rightPointer){
                 int sum=numbers[leftPointer]+numbers[rightPointer];
                 if(sum==target){
-                    int[] result=new int[2];
-                    result[0]=leftPointer+1;
-                    result[1]=rightPointer+1;
-
-                    return result;
+                    return new int[]{leftPointer+1, rightPointer+1};
                 }
 
                 if(sum>target){
@@ -49,6 +45,6 @@ public class Approach1 {
                 }
             }
         }
-        return null;
+        return new int[]{};
     }
 }

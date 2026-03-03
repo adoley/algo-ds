@@ -14,9 +14,9 @@ package v2.palindrome;
 public class Approach1 {
 
     public static void main(String[] args) {
-//        String s = "A man, a plan, a canal: Panama"; //true
-//        String s = "race a car"; //false
-          String s = " "; //true
+        String s = "A man, a plan, a canal: Panama"; //true
+      //  String s = "race a car"; //false
+      //    String s = " "; //true
         System.out.println("Is palindrome : "+isPalindrome(s));
     }
 
@@ -27,7 +27,7 @@ public class Approach1 {
               if(s.length()<=1){
                   isPalindromeString=true;
               }else {
-                  s=s.toLowerCase();
+                 // s=s.toLowerCase();
                   int leftPointer=0;
                   int rightPointer=s.length()-1;
                   isPalindromeString=true;
@@ -37,7 +37,7 @@ public class Approach1 {
                       }else if(!Character.isLetterOrDigit(s.charAt(rightPointer))){
                          rightPointer--;
                       }else{
-                          if(s.charAt(leftPointer)!=s.charAt(rightPointer)){
+                          if(Character.toLowerCase(s.charAt(leftPointer))!=Character.toLowerCase(s.charAt(rightPointer))){
                               isPalindromeString=false;
                               break;
                           }

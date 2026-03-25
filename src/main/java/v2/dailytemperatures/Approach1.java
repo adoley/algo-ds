@@ -6,7 +6,7 @@ import java.util.Arrays;
  * The approach is to use bruteforce approach, for each temperature, we search for first occurrence of higher
  * temperature starting from the next index.
  *
- * Runtime complexity: O(n)
+ * Runtime complexity: O(n^2)
  * Space complexity: O(1)
  */
 public class Approach1 {

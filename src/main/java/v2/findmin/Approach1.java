@@ -8,9 +8,10 @@ package v2.findmin;
  */
 public class Approach1 {
     public static void main(String[] args) {
-      //int[] nums={ 3,4,5,1,2};//1
+      int[] nums={ 3,4,5,1,2};//1
       //  int[] nums={ 4,5,6,7,0,1,2};//0
-        int[] nums={11,13,15,17};//11
+      //  int[] nums={11,13,15,17};//11
+       // int[] nums={3,4,5,1};//1
 
 
         System.out.println(findMin(nums));
@@ -23,7 +24,10 @@ public class Approach1 {
 
          while (left<=right){
              int mid=left+(right-left)/2;
-             if(left>=0 && nums[left]>nums[mid]){
+             if(left==right){
+                 min=nums[left];
+                 break;
+             }else if(left>=0 && nums[left]>nums[mid]){
                  min=nums[mid];
                  break;
              }else if(mid+1<nums.length-1 && nums[mid]>nums[mid+1]){
